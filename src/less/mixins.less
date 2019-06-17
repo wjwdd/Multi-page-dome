@@ -1,0 +1,12 @@
+/*变量定义*/
+@width   : 500px;
+@color   : red;
+@fontSize: 16px;
+
+.wflex(@d: column; @j: center; @a: center) {
+    display        : flex;
+    flex-direction : @d;
+    justify-content: @j;
+    align-items    : @a;
+    color          : @color;
+}
